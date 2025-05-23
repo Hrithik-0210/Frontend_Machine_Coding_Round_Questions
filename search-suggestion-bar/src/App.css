@@ -1,0 +1,32 @@
+.search-box-container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input-box {
+  width: 500px;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.suggestion-container {
+  width: 500px;
+  height: fit-content;
+  overflow: hidden;
+  margin-top: 0px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.suggestion {
+  list-style: none;
+  padding: 5px;
+}
+.suggestion:hover {
+  background-color: lightsteelblue;
+  cursor: pointer;
+}
