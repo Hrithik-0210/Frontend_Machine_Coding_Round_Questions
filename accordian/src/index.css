@@ -1,0 +1,28 @@
+.accordian-container {
+  border: 1px solid gray;
+  max-width: 700px;
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.item {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  margin: 10px;
+}
+.item-heading {
+  width: 100%;
+  border: none;
+  text-align: start;
+  font-size: medium;
+  font-weight: 600;
+  padding: 15px 10px;
+}
+.item-content {
+  padding: 5px 10px;
+}
+.arrow {
+  float: right;
+}
