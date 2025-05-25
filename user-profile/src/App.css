@@ -1,0 +1,15 @@
+.container {
+  width: 500px;
+  text-align: center;
+}
+.user-img {
+  width: 100px;
+  height: 100px;
+}
+button {
+  padding: 5px 10px;
+  background-color: lightseagreen;
+  border: none;
+  border-radius: 3px;
+  color: white;
+}
