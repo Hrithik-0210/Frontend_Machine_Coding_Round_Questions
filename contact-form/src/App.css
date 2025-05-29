@@ -1,0 +1,30 @@
+.form-container {
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form input,
+textarea {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.submit-btn {
+  background-color: dodgerblue;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
